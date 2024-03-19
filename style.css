@@ -1,0 +1,154 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/* css */
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+.header-info{
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 40px;
+}
+.header-info__contact{
+    display: flex;
+    align-items: center;
+}
+.header-info__contact p{
+    margin-left: 6px;
+    color: rgb(172, 121, 84);
+    letter-spacing: 0px;
+    cursor: pointer;
+}
+.header-info__cart{
+    cursor: pointer;
+    font-size: 20px;
+}
+.header-info__contact i:last-child{
+    margin-left: 20px;
+    color: #89909e;
+    cursor: pointer;
+    font-size: 25px;
+}
+.header-info__contact i:first-child{
+    font-size: 20px;
+    color: #89909e;
+    cursor: pointer;
+}
+
+
+
+
+
+/* navigation */
+.header-nav{
+    display: flex;
+    padding: 0 39px;
+    line-height: 81px;
+    font-size: 20px;
+    border-bottom: solid 1px #ECEFF1;
+}
+.header-nav__list-products{
+    display: none;
+}
+.header-nav__lists{
+    display: flex;
+    font-size: 14px !important;
+    width: 100%;
+    justify-content: center;
+}
+.header-nav__list:first-child{
+    font-weight: 600;
+}
+.header-nav__list{
+    padding: 0 10px;
+}
+.header-nav__logo{
+    cursor: pointer;
+    font-size: 28px;
+    font-style: italic;
+    color: rgb(163, 101, 57);
+}
+.header-nav__search{
+    width: 275px;
+    text-align: right;
+}
+.header-nav__search-box{
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: #ECEFF1;
+    width: 215px;
+    height: 32px;
+    padding: 0 35px 0 10px;
+    text-align: left;
+    border: solid thin #ECEFF1;
+}
+.header-nav__search-box:focus-visible {
+    border-color:#767677;
+}
+.header-nav__search-box::placeholder{
+    color: #000;
+    font-size: 14px;
+}
+.header-nav__search{
+    height: 81px;
+}
+.header-nav__search i{
+    cursor: pointer;
+    position: relative;
+    bottom:76px;
+    z-index: 1;
+    margin: 8px;
+}
